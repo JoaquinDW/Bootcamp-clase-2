@@ -1,3 +1,6 @@
+// Antes de empezar, recuerden ejecutar "npm install" para instalar las dependencias necesarias.
+// Para correr los tests, ejecuten "npm test" en la terminal.
+
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
