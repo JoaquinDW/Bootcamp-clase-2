@@ -54,6 +54,26 @@ function esPrimo(numero) {
   // Tu código:
 }
 
+function factorial(numero) {
+  // La función recibe un número "numero" y devuelve el factorial de ese número
+  // Pista: El factorial de un número es el resultado de multiplicar ese número por sus anteriores hasta la unidad
+  // Si el número es 0, el factorial es 1
+  // Por ejemplo, si hacemos factorial(5) la Función deberá hacer la operación 5x4x3x2x1 y devolver el resultado: 120.
+  // Tu código:
+}
+
+function fibonacci(n) {
+  // La función recibe un número "n" y devuelve el enésimo número de la secuencia de Fibonacci.
+  // La secuencia de Fibonacci comienza con 0 y 1. Cada número de Fibonacci posterior es la suma de los dos números anteriores.
+  // Por ejemplo, si hacemos fibonacci(5) la Función deberá devolver el número 5 de la secuencia.
+  // En otras palabras, imprimirá el número que está en la posición contando X cantidad de lugares.
+  // Serie: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55…
+  // Fibonacci (2): 1
+  // Fibonacci (5): 3
+  // Fibonacci (8): 13
+  // Tu código:
+}
+
 export {
   menosQueNoventa,
   esImpar,
@@ -63,4 +83,6 @@ export {
   retornarGanador,
   sumarTodos,
   esPrimo,
+  factorial,
+  fibonacci,
 }

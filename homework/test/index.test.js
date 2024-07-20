@@ -8,6 +8,8 @@ import {
   retornarGanador,
   sumarTodos,
   esPrimo,
+  factorial,
+  fibonacci,
 } from ".."
 
 describe("Clase 2 - Homework", () => {
@@ -111,6 +113,21 @@ describe("Clase 2 - Homework", () => {
       expect(esPrimo(4)).toBe(false)
       expect(esPrimo(6)).toBe(false)
       expect(esPrimo(8)).toBe(false)
+    })
+  })
+
+  describe("factorial", () => {
+    it("Deberia retornar el factorial del numero", () => {
+      expect(factorial(5)).toBe(120)
+      expect(factorial(6)).toBe(720)
+    })
+  })
+
+  describe("fibonacci", () => {
+    it("Deberia retornar el enesimo numero de la secuencia de Fibonacci", () => {
+      expect(fibonacci(2)).toBe(1)
+      expect(fibonacci(5)).toBe(3)
+      expect(fibonacci(8)).toBe(13)
     })
   })
 })
